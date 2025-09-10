@@ -86,7 +86,7 @@ namespace ApiServico.Controllers
             return Ok(chamado);
         }
 
-        [HttpPut("{id}/Fechamento")]
+        [HttpPut("{id}/Encerramento")]
 
         public IActionResult Fechar(int id)
         {
